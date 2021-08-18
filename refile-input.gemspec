@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {spec,features}/*`.split("\n")
 
   s.add_dependency 'formtastic'
-  s.add_dependency 'refile', '~> 0.6'
+  s.add_dependency 'refile'
 end
